@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>simpleGUI</title>
+<script src="winbox.bundle.js"></script>
+<link rel="stylesheet" href="css.css">
+<script src="scripts.js"></script>
+</head>
+<body>
+<div class="hideudiv" id="background"><!--Used for hiding the menu when not in use and basically everywhere that isn't the taskbar--></div>
+<div  id="menu">
+  <button class="menuitem" onclick="CreateBasicWindow('Notepad Web', 'https://stopmotio.github.io/NotepadWeb/');">Notepad Web</button>
+  <button class="menuitem" onclick="CreateBasicWindow('2048', 'https://play2048.co/');">2048</button>
+  <button class="menuitem" onclick="CreateBasicWindow('Web Browser', 'apps/browser.html')">Web Browser</button>
+  <button class="menuitem" onclick="CreateBasicWindow('About', 'apps/info.html');">Info/about</button>
+</div>
+<div class="bar">
+<button class="prg" onclick="MenuToggle();">Launcher</button>
+<input type="color" id="bgcolorselector" value="#add8e6" onchange="changeBGC();">
+</div>
+</body>
+</html>
