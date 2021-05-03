@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  function ChangeURL() {
+    document.getElementById('iframe').src = document.getElementById('urlbar').value;
+    //Bring to front, get rid of the welcome note -v-
+    document.getElementById('iframe').style.zIndex = 5; //Overlap and show page ASAP
+    document.getElementById('note').innerHTML = ""; //Don't need this code anymore,and it shows through if webpage has bad CSS
+    document.getElementById('note').style.backgroundColor = "white"; //In case CSS does not specify, make sure magenta doesn't "bleed" through
+  }
+</script>
+<style>
+  body {
+    margin:0;
+    padding:0;
+  }
+  input {
+    position:fixed;
+    width:95%;
+    height:5%;
+    margin:0;
+    padding:0;
+  }
+  button {
+    width:5%;
+    position:fixed;
+    top:0;
+    left:95%;
+    height:5.7%;
+    padding:0;
+    margin:0;
+  }
+  div {
+    zindex:2;
+    background-color:magenta;
+    position:fixed;
+    top:5%;
+    left:0;
+    height:95%;
+    width:100%;
+  }
+  iframe {
+    border:0;
+    position:fixed;
+    display:block;
+    zindex:0;
+    top:5%;
+    left:0;
+    height:95%;
+    width:100%;
+  }
+</style>
+
+
+</head>
+<body>
+<input type="text" id="urlbar"><button onclick="ChangeURL()">Go!</button>
+<br><div class="note" id="note">
+<h1>Important!</h1>
+<p>Most websites WILL NOT WORK, because they kill iframes.</p>
+<p>YOU MUST USE THE ENTIRE ADDRESS, INCLUDING HTTPS://</p>
+</div>
+<iframe id="iframe" title="TheBrowsher"></iframe>
+</body>
+</html>
