@@ -1,7 +1,8 @@
 # About
 WebGUI using [winbox.js](https://nextapps-de.github.io/winbox/)
 # How to use
-Open the link to try a demo
+Open the link to try a demo <br/>
+_Tip: 2048 or web browser apps too large? It's counterintuitive, but shrinking them down makes them shrink to fit the viewport!_
 # Make own version
 Download the source. All apps are linked in `index.html` as buttons, and removing those buttons will immediately remove them from the interface. For web-based apps, you're done. For local apps, they're still in the `apps/` directory. I reccommend keeping both for now, as browser will let you test web apps, and info contains credits that I'd personally rather you keep.
 # Adding apps
