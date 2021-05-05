@@ -7,7 +7,7 @@ _Tip: 2048 or web browser apps too large? It's counterintuitive, but shrinking t
 Hey you there! Do you not know what JavaScript is? Why are you on GitHub? Anyway, I have a few commands you can enter. <br/>
 To start press `F12`to open developer tools. Next, click on console. From here it's easy to run a function inside the page. This is a function I made, for ease of coding. To use it, copy this into the `> ` line of the console.
 ```
-CreateBasicWindow('Window', 'https://stopmotio.github.io/simpleGUI/')
+CreateBasicWindow('Window', 'https://stopmotio.github.io/simpleGUI/');
 ```
 Pressing `enter` should create a window that creates another of this page! <br/>
 Okay, so now we have that, why don't we direct it to a different page! You see the URL? You can set that to whatever you want, but most big websites will refuse to connect into the window because it's an `iframe`. **It's extremely important the it starts with `https://`! If you don't do this, it won't work!** <br/>
