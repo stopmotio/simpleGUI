@@ -2,7 +2,7 @@
 WebGUI using [winbox.js](https://nextapps-de.github.io/winbox/)
 # How to use
 Open the link to try a demo <br/>
-_Tip: 2048 or web browser apps too large? It's counterintuitive, but shrinking them down makes them shrink to fit the viewport!_
+_Tip: 2048 or web browser apps too large? It's counterintuitive, but shrinking them down makes them snap to the viewport!_
 # Commands/functions
 Hey you there! Do you not know what JavaScript is? Why are you on GitHub? Anyway, I have a few commands you can enter. <br/>
 To start press `F12`to open developer tools. Next, click on console. From here it's easy to run a function inside the page. This is a function I made, for ease of coding. To use it, copy this into the `> ` line of the console.
